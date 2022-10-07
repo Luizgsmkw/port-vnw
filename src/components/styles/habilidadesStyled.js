@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Habilidadess = styled.section `
+display: none;
+`
+
 export const Section = styled.section`
   min-height: 89.5vh;
   display: flex;
