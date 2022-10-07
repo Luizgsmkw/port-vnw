@@ -6,11 +6,11 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
-  background: rgba(108, 223, 225, 0.43);
+  background: rgba(108, 223, 225, 0.57);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-bottom: 1px solid #2e2e2e;
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(108, 223, 225, 0.3);
 `;
 
 export const NavDesktop = styled.nav`
@@ -30,7 +30,7 @@ export const NavMobile = styled.nav`
 export const Ul = styled.ul`
   display: flex;
   list-style: none;
-  width: 300px;
+  width: 400px;
   justify-content: space-evenly;
 `;
 

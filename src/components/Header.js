@@ -18,6 +18,9 @@ const Header = () => {
             <S.LinkHeader to="/sobre">Sobre</S.LinkHeader>
           </li>
           <li>
+            <S.LinkHeader to="/habilidades">Habilidades</S.LinkHeader>
+          </li>
+          <li>
             <S.LinkHeader to="/projetos">Projetos</S.LinkHeader>
           </li>
           <li>

@@ -9,6 +9,7 @@ export const Section = styled.section `
     @media(max-width: 650px) {
         flex-direction: column;
         justify-content: center;
+        
     }
 `
 export const DivInfos = styled.div `
