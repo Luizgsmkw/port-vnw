@@ -42,7 +42,7 @@ const Habilidades = () => {
     const animationHabilidades = document.getElementById("animationHabilidades");
     container.style.display = "initial";
     animationHabilidades.style.display = "none";
-  }, 2000);
+  }, 3000);
 
   return (
     <>
