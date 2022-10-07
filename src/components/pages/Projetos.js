@@ -21,7 +21,7 @@ const Projetos = () => {
     );
     container.style.display = "initial";
     animationProjects.style.display = "none";
-  }, 2000);
+  }, 4000);
 
   return (
     <>
