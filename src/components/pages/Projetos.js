@@ -6,7 +6,7 @@ const Projetos = () => {
   const Deploy = <AiOutlineGlobal />;
   return (
     <>
-      <h2 className="projetos">Projetos</h2>
+     
       <main>
         <div class="card1">
           <div class="info">
