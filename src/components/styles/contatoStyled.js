@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Contatos = styled.div `
+    display: none;
+
+` 
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
@@ -17,7 +21,7 @@ export const Title = styled.h1`
 export const Erro = styled.p `
     color: #BF0413;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 2px;
 `
 export const Form = styled.form`

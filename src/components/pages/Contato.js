@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 import * as S from "../styles/contatoStyled";
 import emailJs from "@emailjs/browser";
+import emailAnimation from '../../assets/lotties/83358-contact-green.json'
+import Lottie from 'react-lottie'
 const Contato = () => {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: emailAnimation
+}
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -46,10 +54,24 @@ const Contato = () => {
     return emailValidador.test(email);
   }
 
+  setTimeout(() => {
+    const container = document.getElementById("container");
+    const animationEmail = document.getElementById("animationEmail");
+    container.style.display= 'initial'
+    animationEmail.style.display= 'none'
+
+  }, 2000)
+
   return (
-    <S.Container className="container">
-      <S.Title className="title">Contato</S.Title>
-      <S.Form className="form" onSubmit={sendEmail}>
+    <>
+    <div id='animationEmail'>
+        <Lottie options={defaultOptions} height={400} width={400}/>
+
+    </div>
+    <S.Contatos id="container">
+    <S.Container>
+      <S.Title>Contato</S.Title>
+      <S.Form onSubmit={sendEmail}>
         <div>
           <S.Input
             type="text"
@@ -116,6 +138,8 @@ const Contato = () => {
         <S.Erro id="erroForm"></S.Erro>
       </S.Form>
     </S.Container>
+    </S.Contatos>
+    </>
   );
 };
 
