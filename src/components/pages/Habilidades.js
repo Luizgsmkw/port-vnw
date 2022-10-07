@@ -51,7 +51,6 @@ const Habilidades = () => {
     </div>
     <S.Habilidadess id="container">
     <S.Section>
-      <S.H2>Tecnologias</S.H2>
       <S.DivTechnologies>
         {technologies.map((tech) => (
           <S.CardTechnologies id={tech.id} key={tech.id}>
