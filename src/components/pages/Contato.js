@@ -64,10 +64,10 @@ const Contato = () => {
 
   return (
     <>
-    {/* <div id='animationEmail'>
+    <div id='animationEmail'>
         <Lottie options={defaultOptions} height={400} width={400}/>
 
-    </div> */}
+    </div>
     <S.Contatos id="container">
     <S.Container>
       <S.Title>Contato</S.Title>
