@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "../styles/sobreStyled";
-import "./sobreCss.css";
+import "../styles/sobreCss.css";
 import { AiFillLinkedin, AiFillInstagram, AiOutlineGithub } from "react-icons/ai";
 const Sobre = () => {
   const Linkedin = <AiFillLinkedin />;

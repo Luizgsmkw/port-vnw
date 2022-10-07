@@ -9,6 +9,12 @@ export const Section = styled.section`
 
 `;
 
+export const H2 = styled.h2 `
+    color: #6CDFE1;
+    font-size: 55px;
+    margin: 10px 0 ;
+`
+
 export const DivTechnologies = styled.div`
   display: flex;
   flex-wrap: wrap;

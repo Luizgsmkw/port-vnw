@@ -18,7 +18,7 @@ const technologies = [
 const Habilidades = () => {
   return (
     <S.Section>
-      <h2>Tecnologias</h2>
+      <S.H2>Tecnologias</S.H2>
       <S.DivTechnologies>
       {technologies.map((tech) => (
         <S.CardTechnologies id={tech.id} key={tech.id}>

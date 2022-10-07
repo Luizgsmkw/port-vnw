@@ -85,7 +85,7 @@
 
 .menu.menuOpen {
   width: 150px;
-  height: 100vh;
+  min-height: 100vh;
   background: rgba(108, 223, 225, 0.51);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(19.8px);

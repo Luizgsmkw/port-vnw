@@ -1,9 +1,309 @@
-import React from 'react'
-
+import React from "react";
+import "../styles/projetosCss.css";
+import { AiFillGithub, AiOutlineGlobal } from "react-icons/ai";
 const Projetos = () => {
+  const GitHub = <AiFillGithub />;
+  const Deploy = <AiOutlineGlobal />;
   return (
-    <div>Projetos</div>
-  )
-}
+    <>
+      <h2 className="projetos">Projetos</h2>
+      <main>
+        <div class="card1">
+          <div class="info">
+            <h1 class="title titleWine">E-wine: e-commerce de vinho</h1>
+            <p class="description">
+              E-wine é um e-commerce de vinho. No seu desenvolvimento as
+              tecnologias utilizadas foram: TypeScript, CSS3, HTML5, NG
+              Bootstrap e Angular. A aplicação está toda responsiva e também foi
+              feito o consumo de uma API de clima para a página de "Indicações".
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/e-wine"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/e-wine/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="info">
+            <h1 class="title titleFilmax">
+              Filmax: API de indicações de filme
+            </h1>
+            <p class="description">
+              O Filmax foi feito utilizando React e o consumo da API de filmes
+              do IMDb. No projeto, utilizei styledcomponent para dar
+              estilização, react-router-dom para as rotas e o axios para
+              consumir a API. Também foi utilizado o component de classe.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/filmax"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://filmax-chny.vercel.app"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="info">
+            <h1 class="title">Sunnyside</h1>
+            <p class="description">
+              O Sunnyside foi um ótimo desafio para treinar conhecimentos de
+              HTML e CSS, principalmente as habilidades com responsividade.
+              Também foi essencial para treinar o desenvolvimento de um menu
+              móvel (menu-hamburguer), utilizando Javascript.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/Sunnyside"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/Sunnyside/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card4">
+          <div class="info">
+            <h1 class="title">Todo-App</h1>
+            <p class="description">
+              O Todo-App foi um ótimo desafio para melhorar meus conhecimentos
+              sobre o DOM, pois além de ter que fazer uma lista de tarefas, era
+              necessário fazer um Dark Mode. Para realizar o desafio utilizei
+              JavaScript, CSS e HTML.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/todo-list"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/todo-list/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card5">
+          <div class="info">
+            <h1 class="title">Crespos</h1>
+            <p class="description">
+              O Crespos foi um dos projetos mais desafiadores que fiz no quesito
+              de HTML e CSS, por causa da responsividade e organização dos
+              componentes na página. Com esse projeto consegui aprimorar meus
+              conhecimentos em media query e flexbox.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/Projeto-Crespos"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/Projeto-Crespos/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card6">
+          <div class="info">
+            <h1 class="title">Pokken</h1>
+            <p class="description">
+              O Pokken foi um projeto que tentei replicar o que foi feito
+              durante a MAPADEV WEEK. Utilizei estrutura condicional e DOM para
+              fazer a troca de cards. No CSS utilizei Flexbox e Media Query para
+              fazer a responsividade, além do hover para fazer transações de
+              cores.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/pokken"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/pokken/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card7">
+          <div class="info">
+            <h1 class="title">Fylo</h1>
+            <p class="description">
+              O Fylo foi um desafio do Frontend Mentor que fiz utilizando HTML,
+              Sass (Sass é a linguagem de extensão CSS, que deixa o CSS com mais
+              funcionalidades) e JavaScript. Também utilizei de expressões
+              regulares para fazer a validação do input de email.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/Fylo-"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/Fylo-/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card8">
+          <div class="info">
+            <h1 class="title">Cura</h1>
+            <p class="description">
+              O Fylo foi um desafio do Frontend Mentor que fiz utilizando HTML,
+              Sass (Sass é a linguagem de extensão CSS, que deixa o CSS com mais
+              funcionalidades) e JavaScript. Também utilizei de expressões
+              regulares para fazer a validação do input de email.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/Cura-BH"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/Cura-BH/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card9">
+          <div class="info">
+            <h1 class="title">Fylo</h1>
+            <p class="description">
+              O Fylo foi um desafio do Frontend Mentor que fiz utilizando HTML,
+              Sass (Sass é a linguagem de extensão CSS, que deixa o CSS com mais
+              funcionalidades) e JavaScript. Também utilizei de expressões
+              regulares para fazer a validação do input de email.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/ProjetoGitHub"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/ProjetoGitHub/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card10">
+          <div class="info">
+            <h1 class="title">Huddle</h1>
+            <p class="description">
+              O Huddle foi um ótimo desafio para consolidar meus conhecimentos
+              de HTML e CSS e as habilidades com responsividade. Também foi
+              essencial para treinar no CSS as seções com bordas curvas,
+              utilizando o background-image.
+            </p>
+            <div className="projects-links">
+              <a
+                href="https://github.com/Luizgsmkw/Huddle"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGitHub">{GitHub}</p>
+                <p className="repositorio">Repositório</p>
+              </a>
+              <a
+                href="https://luizgsmkw.github.io/Huddle/"
+                target="_blank"
+                className="social-btn"
+              >
+                <p className="iconGlobal">{Deploy}</p>
+                <p className="deploy">Deploy</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+};
 
-export default Projetos
+export default Projetos;
