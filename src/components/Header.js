@@ -39,6 +39,9 @@ const Header = () => {
                 <S.LinkHeaderMobile to="/sobre">Sobre</S.LinkHeaderMobile>
               </li>
               <li>
+                <S.LinkHeaderMobile to="/habilidades">Habilidades</S.LinkHeaderMobile>
+              </li>
+              <li>
                 <S.LinkHeaderMobile to="/projetos">Projetos</S.LinkHeaderMobile>
               </li>
               <li>
