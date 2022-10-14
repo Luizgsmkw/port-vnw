@@ -22,7 +22,8 @@ main {
 .card7,
 .card8,
 .card9,
-.card10 {
+.card10,
+.card11 {
   border-radius: 12px;
   margin: 20px auto;
   width: 500px;
@@ -34,6 +35,7 @@ main {
   background-image: url(../img/eVinho.png);
   background-size: cover;
   cursor: pointer;
+  
 }
 
 .card2 {
@@ -58,9 +60,8 @@ main {
 }
 
 .card6 {
-  background-image: url(../img/screencapture-luizgsmkw-github-io-pokken-2022-08-04-11_08_35.png);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/ods.png);
+  object-fit: cover;
 }
 
 .card7 {
@@ -82,6 +83,11 @@ main {
 
 .card10 {
   background-image: url(../img/Huddle.jpg);
+  background-size: cover;
+}
+
+.card11 {
+  background-image: url(../img/screencapture-luizgsmkw-github-io-pokken-2022-08-04-11_08_35.png);
   background-size: cover;
 }
 
@@ -121,6 +127,7 @@ main {
 .card8:hover .info,
 .card9:hover .info,
 .card10:hover .info,
+.card11:hover .info,
 .card1:hover .info:before,
 .card2:hover .info:before,
 .card3:hover .info:before,
@@ -130,7 +137,8 @@ main {
 .card7:hover .info:before,
 .card8:hover .info:before,
 .card9:hover .info:before,
-.card10:hover .info:before {
+.card10:hover .info:before,
+.card11:hover .info:before {
   transform: translateY(0) translateZ(0);
 }
 
@@ -191,16 +199,8 @@ main {
 }
 
 
-html {
-  font-size: 16px;
-}
 
-body {
-  font-family: Open Sans, Verdana, sans-serif;
-  color: rgba(0, 0, 0, 0.87);
-  font-weight: 400;
-  line-height: 1.45;
-}
+
 
 @media (min-width: 800px) {
   h1 {

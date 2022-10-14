@@ -16,9 +16,7 @@ const Projetos = () => {
 
   setTimeout(() => {
     const container = document.getElementById("container");
-    const animationProjects = document.getElementById(
-      "animationProjects"
-    );
+    const animationProjects = document.getElementById("animationProjects");
     container.style.display = "initial";
     animationProjects.style.display = "none";
   }, 4000);
@@ -180,17 +178,18 @@ const Projetos = () => {
           </div>
           <div class="card6">
             <div class="info">
-              <h1 class="title">Pokken</h1>
+              <h1 class="title">ODS - Belo Horizonte</h1>
               <p class="description">
-                O Pokken foi um projeto que tentei replicar o que foi feito
-                durante a MAPADEV WEEK. Utilizei estrutura condicional e DOM
-                para fazer a troca de cards. No CSS utilizei Flexbox e Media
-                Query para fazer a responsividade, além do hover para fazer
-                transações de cores.
+                O ODS-Belo-Horizonte foi um projeto realizado para demonstrar
+                alguns programas que minha cidade realiza para atingir os
+                Objetivos de Desenvolvimento Sustentável e, dessa forma, se
+                tornar uma cidade mais inclusivas e sustentável. Utilizei
+                utilizei styledcomponent para dar estilização, react-router-dom
+                para as rotas e props para fazer componentização. 
               </p>
               <div className="projects-links">
                 <a
-                  href="https://github.com/Luizgsmkw/pokken"
+                  href="https://github.com/Luizgsmkw/ODS-Belo-Horizonte"
                   target="_blank"
                   className="social-btn"
                 >
@@ -198,7 +197,7 @@ const Projetos = () => {
                   <p className="repositorio">Repositório</p>
                 </a>
                 <a
-                  href="https://luizgsmkw.github.io/pokken/"
+                  href="https://ods-belo-horizonte.vercel.app/"
                   target="_blank"
                   className="social-btn"
                 >
@@ -315,6 +314,36 @@ const Projetos = () => {
                 </a>
                 <a
                   href="https://luizgsmkw.github.io/Huddle/"
+                  target="_blank"
+                  className="social-btn"
+                >
+                  <p className="iconGlobal">{Deploy}</p>
+                  <p className="deploy">Deploy</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card11">
+            <div class="info">
+              <h1 class="title">Pokken</h1>
+              <p class="description">
+                O Pokken foi um projeto que tentei replicar o que foi feito
+                durante a MAPADEV WEEK. Utilizei estrutura condicional e DOM
+                para fazer a troca de cards. No CSS utilizei Flexbox e Media
+                Query para fazer a responsividade, além do hover para fazer
+                transações de cores.
+              </p>
+              <div className="projects-links">
+                <a
+                  href="https://github.com/Luizgsmkw/pokken"
+                  target="_blank"
+                  className="social-btn"
+                >
+                  <p className="iconGitHub">{GitHub}</p>
+                  <p className="repositorio">Repositório</p>
+                </a>
+                <a
+                  href="https://luizgsmkw.github.io/pokken/"
                   target="_blank"
                   className="social-btn"
                 >

@@ -1,10 +1,12 @@
+
+
 .icon {
-  position: absolute;
   z-index: 4;
   left: 90%;
   width: fit-content;
   height: 30px;
   cursor: pointer;
+  position: absolute !important;
 }
 
 .hamburguer {
@@ -13,7 +15,7 @@
   width: 37px;
   height: 3px;
   background-color: #2e2e2e;
-  position: absolute;
+  position: absolute !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
@@ -21,7 +23,7 @@
 .hamburguer::before {
   top: -12px;
   content: "";
-  position: absolute;
+  position: absolute !important;
   width: 37px;
   height: 3px;
   background-color: #2e2e2e;
@@ -32,7 +34,7 @@
 .hamburguer::after {
   top: 12px;
   content: "";
-  position: absolute;
+  position: absolute !important;;
   width: 37px;
   height: 3px;
   background-color: #2e2e2e;
@@ -48,16 +50,19 @@
   flex-wrap: nowrap;
   font-size: 1.2rem;
   font-weight: 600;
+ 
 }
 
 .listItems {
   padding: 0;
   list-style: none;
+ 
 }
 
 .listItems li {
   margin: 2px 8px;
   cursor: pointer;
+  
 }
 
 .listItems li:hover {
@@ -91,7 +96,7 @@
   backdrop-filter: blur(19.8px);
   -webkit-backdrop-filter: blur(19.8px);
   border: 1px solid rgba(108, 223, 225, 0.3);
-  position: absolute;
+  position: absolute !important;
   right: 0px;
   top: 0px;
 }

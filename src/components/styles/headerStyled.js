@@ -11,6 +11,7 @@ export const Header = styled.header`
   backdrop-filter: blur(1.9px);
   -webkit-backdrop-filter: blur(1.9px);
   border: 1px solid rgba(108, 223, 225, 0.3);
+  
 `;
 
 export const NavDesktop = styled.nav`
@@ -85,7 +86,7 @@ export const LinkHeaderMobile = styled(Link)`
   margin-bottom: 20px;
   &:before {
     content: "";
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: 0;
     width: 100%;
@@ -100,7 +101,7 @@ export const LinkHeaderMobile = styled(Link)`
   }
   &:after {
     content: "";
-    position: absolute;
+    position: absolute !important;
     bottom: 0;
     left: 0;
     width: 100%;
