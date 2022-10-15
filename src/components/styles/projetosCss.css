@@ -5,12 +5,16 @@
   display: none;
 }
 
+
+
 main {
   padding: 0 64px 64px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 50px;
+  position: fixed;
+  z-index: -1;
 }
 
 .card1,
@@ -231,6 +235,20 @@ p {
   justify-content: space-around;
   padding-top: 10px;
 }
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11 {
+  width: 400px;
+}
 }
 
 @media (max-width: 490px) {
@@ -257,5 +275,19 @@ p {
 }
 .projects-links{
   padding-left: 5px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11 {
+  width: 310px;
 }
 }
