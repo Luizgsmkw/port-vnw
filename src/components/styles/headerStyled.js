@@ -31,7 +31,7 @@ export const NavMobile = styled.nav`
 export const Ul = styled.ul`
   display: flex;
   list-style: none;
-  width: 400px;
+  width: 500px;
   justify-content: space-evenly;
 `;
 
