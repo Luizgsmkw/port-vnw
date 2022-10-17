@@ -6,6 +6,7 @@ import Sobre from '../pages/Sobre'
 import Contato from '../pages/Contato'
 import Habilidades from '../pages/Habilidades'
 import Header from '../Header'
+import Certificados from '../pages/Certificados'
 const Routes = () => {
   return (
    <BrowserRouter>
@@ -14,8 +15,9 @@ const Routes = () => {
     <Route path='/' element={<Home/>}/>
     <Route path='/sobre' element={<Sobre/>}/>
     <Route path='/habilidades' element={<Habilidades/>}/>
-    <Route path='/Projetos' element={<Projetos/>}/>
-    <Route path='/Contato' element={<Contato/>}/>
+    <Route path='/projetos' element={<Projetos/>}/>
+    <Route path='/contato' element={<Contato/>}/>
+    <Route path='/certificados' element={<Certificados/>}/>
    </Rotas>
    </BrowserRouter>
   )

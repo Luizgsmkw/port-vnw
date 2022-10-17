@@ -15,7 +15,7 @@ export const Header = styled.header`
 `;
 
 export const NavDesktop = styled.nav`
-  @media (max-width: 500px) {
+  @media (max-width: 630px) {
     display: none;
   }
 `;
@@ -23,7 +23,7 @@ export const NavDesktop = styled.nav`
 export const NavMobile = styled.nav`
   display: none;
 
-  @media (max-width: 500px) {
+  @media (max-width: 630px) {
     display: initial;
   }
 `;
