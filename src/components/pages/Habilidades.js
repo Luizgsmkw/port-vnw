@@ -9,6 +9,7 @@ import {
   DiBootstrap,
   DiGithub,
 } from "react-icons/di";
+import {FaFigma} from "react-icons/fa"
 import Ts from "../img/icons8-typescript-100.png";
 import * as S from "../styles/habilidadesStyled";
 import HabilidadesAnimation from "../../assets/lotties/Habilidades.json";
@@ -29,6 +30,7 @@ const technologies = [
   { id: "sass", name: "SASS", icon: <DiSass /> },
   { id: "bootstrap", name: "BOOTSTRAP", icon: <DiBootstrap /> },
   { id: "github", name: "GITHUB", icon: <DiGithub /> },
+  { id: "figma", name: "FIGMA", icon: <FaFigma /> },
 ];
 const Habilidades = () => {
   const defaultOptions = {
