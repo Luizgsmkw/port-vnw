@@ -9,7 +9,7 @@ import {
   DiBootstrap,
   DiGithub,
 } from "react-icons/di";
-import {FaFigma} from "react-icons/fa"
+import { FaFigma } from "react-icons/fa";
 import Ts from "../img/icons8-typescript-100.png";
 import * as S from "../styles/habilidadesStyled";
 import HabilidadesAnimation from "../../assets/lotties/Habilidades.json";
@@ -32,6 +32,7 @@ const technologies = [
   { id: "github", name: "GITHUB", icon: <DiGithub /> },
   { id: "figma", name: "FIGMA", icon: <FaFigma /> },
 ];
+
 const Habilidades = () => {
   const defaultOptions = {
     loop: true,
@@ -41,28 +42,30 @@ const Habilidades = () => {
 
   setTimeout(() => {
     const container = document.getElementById("container");
-    const animationHabilidades = document.getElementById("animationHabilidades");
+    const animationHabilidades = document.getElementById(
+      "animationHabilidades"
+    );
     container.style.display = "initial";
     animationHabilidades.style.display = "none";
   }, 3000);
 
   return (
     <>
-    <div id='animationHabilidades'>
-        <Lottie options={defaultOptions} height={400} width={400}/>
-    </div>
-    <S.Habilidadess id="container">
-    <S.Section>
-      <S.DivTechnologies>
-        {technologies.map((tech) => (
-          <S.CardTechnologies id={tech.id} key={tech.id}>
-            <S.IconTechnologies>{tech.icon}</S.IconTechnologies>
-            <S.H3>{tech.name}</S.H3>
-          </S.CardTechnologies>
-        ))}
-      </S.DivTechnologies>
-    </S.Section>
-    </S.Habilidadess>
+      <div id="animationHabilidades">
+        <Lottie options={defaultOptions} height={400} width={400} />
+      </div>
+      <S.Habilidadess id="container">
+        <S.Section>
+          <S.DivTechnologies>
+            {technologies.map((tech) => (
+              <S.CardTechnologies id={tech.id} key={tech.id}>
+                <S.IconTechnologies>{tech.icon}</S.IconTechnologies>
+                <S.H3>{tech.name}</S.H3>
+              </S.CardTechnologies>
+            ))}
+          </S.DivTechnologies>
+        </S.Section>
+      </S.Habilidadess>
     </>
   );
 };

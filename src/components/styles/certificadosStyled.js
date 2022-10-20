@@ -24,12 +24,18 @@ margin-left: 30px;
 
 `
 
+export const Button = styled.button `
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 4px;
+`
+
 export const ImgCertificados = styled.img `
     width: 360px;
     height: 245px;
     cursor: pointer;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
 
     @media(max-width: 370px) {
         width: 340px;

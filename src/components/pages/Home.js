@@ -2,7 +2,9 @@ import React from "react";
 import * as S from "../styles/homeStyled";
 import FotoPerfil from "../img/fotoPerfil.png";
 import curriculo from "../../assets/curriculo/Luiz-Martins.pdf";
+
 const Home = () => {
+
   return (
       <S.Section>
         <S.DivInfos>
@@ -24,6 +26,7 @@ const Home = () => {
       
       </S.Section>
   );
+
 };
 
 export default Home;

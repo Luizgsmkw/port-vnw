@@ -90,7 +90,7 @@ const Certificados = () => {
     <S.Certificados id="container">
       <S.ContainerCertificados>
         <S.DivCertificados>
-          <button
+          <S.Button
             onClick={() => {
               HandleOpenModal();
             }}
@@ -100,7 +100,7 @@ const Certificados = () => {
               src={certificadoSoulCode}
               alt="Certificado do curso da Soul Code"
             />
-          </button>
+          </S.Button>
           <Modal
             isOpen={modalOpen}
             onRequestClose={HandleCloseModal}
@@ -114,7 +114,7 @@ const Certificados = () => {
           <S.P>Curso Java Full Stack - SoulCode Academy</S.P>
         </S.DivCertificados>
         <S.DivCertificados>
-          <button
+          <S.Button
             onClick={() => {
               HandleOpenModal2();
             }}
@@ -124,7 +124,7 @@ const Certificados = () => {
               src={certificadoHTML1}
               alt="Certificado do módulo 1 Cruso em Vídeo HTML e CSS"
             />
-          </button>
+          </S.Button>
           <Modal
             isOpen={modalOpen2}
             onRequestClose={HandleCloseModal2}
@@ -138,7 +138,7 @@ const Certificados = () => {
           <S.P>HTML5 E CSS3: MÓDULO 1 - Curso em Vídeo</S.P>
         </S.DivCertificados>
         <S.DivCertificados>
-        <button
+        <S.Button
             onClick={() => {
               HandleOpenModal3();
             }}
@@ -147,7 +147,7 @@ const Certificados = () => {
             src={certificadoHTML2}
             alt="Certificado do módulo 2 Cruso em Vídeo HTML e CSS"
           />
-          </button>
+          </S.Button>
           <Modal
             isOpen={modalOpen3}
             onRequestClose={HandleCloseModal3}
@@ -161,7 +161,7 @@ const Certificados = () => {
           <S.P>HTML5 E CSS3: MÓDULO 2 - Curso em Vídeo</S.P>
         </S.DivCertificados>
         <S.DivCertificados>
-        <button
+        <S.Button
             onClick={() => {
               HandleOpenModal4();
             }}
@@ -170,7 +170,7 @@ const Certificados = () => {
             src={certificadoHTML3}
             alt="Certificado do módulo 3 Cruso em Vídeo HTML e CSS"
           />
-          </button>
+          </S.Button>
           <Modal
             isOpen={modalOpen4}
             onRequestClose={HandleCloseModal4}
@@ -184,7 +184,7 @@ const Certificados = () => {
           <S.P>HTML5 E CSS3: MÓDULO 3 - Curso em Vídeo</S.P>
         </S.DivCertificados>
         <S.DivCertificados>
-        <button
+        <S.Button
             onClick={() => {
               HandleOpenModal5();
             }}
@@ -193,7 +193,7 @@ const Certificados = () => {
             src={certificadoLogicaProgramacao}
             alt="Certificado do curso da Soul Code de lógica de programação"
           />
-          </button>
+          </S.Button>
           <Modal
             isOpen={modalOpen5}
             onRequestClose={HandleCloseModal5}

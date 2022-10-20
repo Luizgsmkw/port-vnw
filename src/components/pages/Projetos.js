@@ -61,7 +61,7 @@ const Projetos = () => {
           <div class="card2">
             <div class="info">
               <h1 class="title titleFilmax">
-                Filmax: API de indicações de filme
+                Filmax: API de indicações de filmes
               </h1>
               <p class="description">
                 O Filmax foi feito utilizando React e o consumo da API de filmes
@@ -267,12 +267,10 @@ const Projetos = () => {
           </div>
           <div class="card9">
             <div class="info">
-              <h1 class="title">Fylo</h1>
+              <h1 class="title">ProjetoGitHub</h1>
               <p class="description">
-                O Fylo foi um desafio do Frontend Mentor que fiz utilizando
-                HTML, Sass (Sass é a linguagem de extensão CSS, que deixa o CSS
-                com mais funcionalidades) e JavaScript. Também utilizei de
-                expressões regulares para fazer a validação do input de email.
+                No ProjetoGitHub fiz o consumo da API do GitHub para poder buscar repositórios e informações dos usuários. Utilizei as tecnologias de
+                HTML, CSS  e JavaScript. Além de ter utilizado o DOM para criação dos cards dos repositórios e a Fetch API para consumir a API. 
               </p>
               <div className="projects-links">
                 <a
