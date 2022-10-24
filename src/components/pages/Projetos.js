@@ -240,10 +240,7 @@ const Projetos = () => {
             <div class="info">
               <h1 class="title">Cura</h1>
               <p class="description">
-                O Fylo foi um desafio do Frontend Mentor que fiz utilizando
-                HTML, Sass (Sass é a linguagem de extensão CSS, que deixa o CSS
-                com mais funcionalidades) e JavaScript. Também utilizei de
-                expressões regulares para fazer a validação do input de email.
+              No projeto utilizei o JavaScript para fazer o plug-in modal do Bootstrap, também utilizei o sistema de grid do Bootstratp para fazer as colunas de publicação. Por fim, utilizei o Bootstrap Icons para fazer a logo do projeto.
               </p>
               <div className="projects-links">
                 <a
