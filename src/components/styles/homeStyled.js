@@ -43,33 +43,8 @@ export const P = styled.p `
 export const SpanName = styled.span `
     color: #6CDFE1;
     font-weight: 700;
-    width: 360px;
-    border-right: 2px solid #6CDFE1;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    animation: blinkcursor 600ms steps(40) infinite normal, typing 3.5s steps(40)    normal;
-    overflow: hidden;
-    font-family: 'Special Elite', cursive;
+   
     
-    @keyframes typing {
-        from{
-            width: 0;
-        }
-
-        to{
-            width: 350px;
-        }
-    }
-
-    @keyframes blinkcursor {
-        from{
-            border-right-color: #6CDFE1;
-        }
-        to{
-            border-right-color: transparent;
-        }
-    }
 `
 
 export const Btn = styled.a `
