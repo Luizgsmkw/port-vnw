@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import * as S from "../styles/certificadosStyled";
 import Modal from "react-modal";
 import certificadoSoulCode from "../img/certificadoSOulCode.png";
+import certificadoVaiNaWeb from "../img/certificadoVaiNaWeb.jpg"
 import certificadoHTML1 from "../img/certificadoHTML1.jpg";
 import certificadoHTML2 from "../img/certificadoHTML2.jpg";
 import certificadoHTML3 from "../img/certificadoHTML3.jpg";
@@ -29,6 +30,7 @@ const Certificados = () => {
   const [modalOpen3, setModalOpen3] = useState(false);
   const [modalOpen4, setModalOpen4] = useState(false);
   const [modalOpen5, setModalOpen5] = useState(false);
+  const [modalOpen6, setModalOpen6] = useState(false);
 
   const HandleOpenModal = () => {
     return setModalOpen(true);
@@ -50,6 +52,10 @@ const Certificados = () => {
     return setModalOpen5(true);
   };
 
+  const HandleOpenModal6 = () => {
+    return setModalOpen6(true);
+  };
+
 
   const HandleCloseModal = () => {
     setModalOpen(false);
@@ -69,6 +75,10 @@ const Certificados = () => {
 
   const HandleCloseModal5 = () => {
     setModalOpen5(false);
+  };
+
+  const HandleCloseModal6 = () => {
+    setModalOpen6(false);
   };
 
   const customStyles = {
@@ -112,6 +122,30 @@ const Certificados = () => {
             />
           </Modal>
           <S.P>Curso Java Full Stack - SoulCode Academy</S.P>
+        </S.DivCertificados>
+        <S.DivCertificados>
+          <S.Button
+            onClick={() => {
+              HandleOpenModal6();
+            }}
+          >
+            <S.ImgCertificados
+              id="2"
+              src={certificadoVaiNaWeb}
+              alt="Certificado do curso de Front-End da escola de tecnologia Vai na Web"
+            />
+          </S.Button>
+          <Modal
+            isOpen={modalOpen6}
+            onRequestClose={HandleCloseModal6}
+            style={customStyles}
+          >
+            <S.ImgCertificadosMobile
+              src={certificadoVaiNaWeb}
+              alt=""
+            />
+          </Modal>
+          <S.P>Curso de Front-End - Vai na Web</S.P>
         </S.DivCertificados>
         <S.DivCertificados>
           <S.Button

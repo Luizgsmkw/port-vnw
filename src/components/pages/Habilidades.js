@@ -8,8 +8,9 @@ import {
   DiJsBadge,
   DiBootstrap,
   DiGithub,
+  DiMongodb
 } from "react-icons/di";
-import { FaFigma } from "react-icons/fa";
+import { FaFigma, FaNode } from "react-icons/fa";
 import Ts from "../img/icons8-typescript-100.png";
 import * as S from "../styles/habilidadesStyled";
 import HabilidadesAnimation from "../../assets/lotties/Habilidades.json";
@@ -31,6 +32,8 @@ const technologies = [
   { id: "bootstrap", name: "BOOTSTRAP", icon: <DiBootstrap /> },
   { id: "github", name: "GITHUB", icon: <DiGithub /> },
   { id: "figma", name: "FIGMA", icon: <FaFigma /> },
+  { id: "node", name: "NODE", icon: <FaNode /> },
+  { id: "mongo", name: "MONGODB", icon: <DiMongodb /> },
 ];
 
 const Habilidades = () => {
